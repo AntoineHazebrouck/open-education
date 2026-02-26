@@ -1,0 +1,16 @@
+.app-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	/* Fill the entire screen height */
+	overflow: hidden;
+	/* Prevent the main window from scrolling */
+}
+
+.content-area {
+	flex: 1;
+	/* Grow to fill all remaining space */
+	overflow-y: auto;
+	/* Allow ONLY this section to scroll */
+	padding: 20px;
+}
