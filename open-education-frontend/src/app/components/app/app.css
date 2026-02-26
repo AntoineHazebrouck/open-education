@@ -9,8 +9,5 @@
 
 .content-area {
 	flex: 1;
-	/* Grow to fill all remaining space */
 	overflow-y: auto;
-	/* Allow ONLY this section to scroll */
-	padding: 20px;
 }

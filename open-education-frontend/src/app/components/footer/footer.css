@@ -1,6 +1,7 @@
 .footer {
-  height: 50px !important; /* Footers are usually slimmer than navbars */
+  height: 50px !important;
   font-size: 0.8rem;
+  background-color: var(--mat-sys-surface-container-low);
 }
 
 .footer-text {
