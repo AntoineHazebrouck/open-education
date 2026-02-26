@@ -1,0 +1,9 @@
+.footer {
+  height: 50px !important; /* Footers are usually slimmer than navbars */
+  font-size: 0.8rem;
+}
+
+.footer-text {
+  margin-left: auto;
+  margin-right: auto;
+}
