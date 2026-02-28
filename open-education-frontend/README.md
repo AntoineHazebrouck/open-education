@@ -30,3 +30,4 @@ dons HelloAsso -> demander au gars de creer un compte HelloAsso
 Agenda ?
 Page adhesion ?
 Page contact ?
+Logo
