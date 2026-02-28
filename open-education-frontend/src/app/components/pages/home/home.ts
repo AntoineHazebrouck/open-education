@@ -1,9 +1,16 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home {}
+export class Home {
+
+  protected onClick() {
+    console.log('clickclick');
+    
+  }
+}

@@ -6,10 +6,12 @@ export const routes: Routes = [
   {
     path: '',
     component: Home,
+    title: 'Accueil',
   },
   {
     path: 'about',
     component: About,
+    title: 'TODO',
   },
   { path: '**', redirectTo: '' }, // redirect 404 to home
 ];
