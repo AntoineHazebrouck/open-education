@@ -8,9 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './home.css',
 })
 export class Home {
-
   protected onClick() {
-    console.log('clickclick');
-    
+    window.open('https://www.helloasso.com/associations/assodesjeunes4205/formulaires/1', '_blank');
   }
 }
