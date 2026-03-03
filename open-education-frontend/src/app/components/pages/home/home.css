@@ -1,0 +1,31 @@
+.content {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Vertical centering */
+  gap: 16px;
+  /* Space between items */
+  padding: 8px;
+}
+
+.projects-card {
+  /* max-width: 90%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card {
+  width: 95%;
+  height: 95%;
+}
+
+mat-card-footer {
+  margin-top: auto;
+  padding: 16px;
+}

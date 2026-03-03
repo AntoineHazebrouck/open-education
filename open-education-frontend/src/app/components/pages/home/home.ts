@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-home',
-  imports: [MatButtonModule],
+  imports: [MatCardModule, MatButtonModule, MatGridListModule],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

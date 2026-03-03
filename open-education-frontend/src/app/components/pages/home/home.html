@@ -1,28 +1,83 @@
-<p>home works!</p>
-  
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
-<h1>qsdqsd</h1>
+<main class="content">
 
-<button mat-button (click)="onClick()">Faire un don</button>
+	<section>
+		<h1>Apprendre, s'intégrer et avancer avec confiance</h1>
+
+		<h4>
+			Open Education | Association accompagne les personnes vulnérables et nouveaux
+			arrivants grâce à l’apprentissage, la littératie numérique et des projets éducatifs à impact
+			social.
+		</h4>
+
+		<div class="row">
+			<button mat-button routerLink="/classes">Découvrir nos classes</button>
+			<button mat-button routerLink="/volunteer">Devenir bénévole</button>
+		</div>
+
+	</section>
+
+	<mat-card class="projects-card" appearance="outlined">
+		<mat-card-header>
+			<mat-card-title>Nos projets</mat-card-title>
+		</mat-card-header>
+		<mat-card-content>
+
+			<mat-grid-list cols="2" rowHeight="3:1">
+				<mat-grid-tile>
+					<mat-card class="project-card" appearance="outlined">
+						<mat-card-header>
+							<mat-card-title>Communication efficace</mat-card-title>
+						</mat-card-header>
+						<mat-card-content>
+							<p>
+								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+								facilitateur.
+							</p>
+						</mat-card-content>
+						<mat-card-footer class="example-card-footer">
+							<button mat-button>En savoir plus</button>
+						</mat-card-footer>
+					</mat-card>
+				</mat-grid-tile>
+				<mat-grid-tile>
+					<mat-card class="project-card" appearance="outlined">
+						<mat-card-header>
+							<mat-card-title>Communication efficace</mat-card-title>
+						</mat-card-header>
+						<mat-card-content>
+							<p>
+								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+								facilitateur.
+							</p>
+						</mat-card-content>
+						<mat-card-footer class="example-card-footer">
+							<button mat-button>En savoir plus</button>
+						</mat-card-footer>
+					</mat-card>
+				</mat-grid-tile>
+				<mat-grid-tile>
+					<mat-card class="project-card" appearance="outlined">
+						<mat-card-header>
+							<mat-card-title>Communication efficace</mat-card-title>
+						</mat-card-header>
+						<mat-card-content>
+							<p>
+								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+								facilitateur.
+							</p>
+						</mat-card-content>
+						<mat-card-footer class="example-card-footer">
+							<button mat-button>En savoir plus</button>
+						</mat-card-footer>
+					</mat-card>
+				</mat-grid-tile>
+			</mat-grid-list>
+
+
+		</mat-card-content>
+	</mat-card>
+
+	<!-- Nos classes (pas de mat-card autour) -->
+
+	<button mat-button (click)="onClick()">Faire un don</button>
+</main>
