@@ -73,25 +73,28 @@
 		</mat-card-content>
 	</mat-card>
 
-	<h1>Nos classes</h1>
-	<h4>Des formats simples et pratiques, adaptés à votre niveau.</h4>
-	<mat-grid-list cols="2" rowHeight="3:1">
-		<mat-grid-tile>
-			<app-content-card class="classes-card" [title]="'Français - conversation et vie quotidienne'"
-				[content]="'Comprendre, parler et gagner en aisance dans les situations courantes.'"></app-content-card>
-		</mat-grid-tile>
+	<app-content-section [title]="`Nos classes`"
+		[subtitle]="`Des formats simples et pratiques, adaptés à votre niveau.`">
 
-		<mat-grid-tile>
-			<app-content-card class="classes-card" [title]="'Littératie numérique (bases)'"
-				[content]="'Utiliser smartphone, email, démarches en ligne et sécurité numérique.'"></app-content-card>
-		</mat-grid-tile>
+		<mat-grid-list cols="2" rowHeight="3:1">
+			<mat-grid-tile>
+				<app-content-card class="classes-card" [title]="'Français - conversation et vie quotidienne'"
+					[content]="'Comprendre, parler et gagner en aisance dans les situations courantes.'"></app-content-card>
+			</mat-grid-tile>
 
-		<mat-grid-tile>
-			<app-content-card class="classes-card" [title]="'IA utile au quotidien'"
-				[content]="`Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité.`"></app-content-card>
-		</mat-grid-tile>
+			<mat-grid-tile>
+				<app-content-card class="classes-card" [title]="'Littératie numérique (bases)'"
+					[content]="'Utiliser smartphone, email, démarches en ligne et sécurité numérique.'"></app-content-card>
+			</mat-grid-tile>
 
-	</mat-grid-list>
+			<mat-grid-tile>
+				<app-content-card class="classes-card" [title]="'IA utile au quotidien'"
+					[content]="`Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité.`"></app-content-card>
+			</mat-grid-tile>
+
+		</mat-grid-list>
+	</app-content-section>
+
 
 	<button mat-button (click)="onClick()">Faire un don</button>
 </main>
