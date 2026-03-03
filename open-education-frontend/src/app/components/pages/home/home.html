@@ -1,107 +1,102 @@
-<main class="content">
-	<app-content-section [title]="`Apprendre, s'intégrer et avancer avec confiance`"
-		[subtitle]="`Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce à l’apprentissage, la littératie numérique et des projets éducatifs à impact social.`">
+<app-content-section [title]="`Apprendre, s'intégrer et avancer avec confiance`"
+	[subtitle]="`Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce à l’apprentissage, la littératie numérique et des projets éducatifs à impact social.`">
 
-		<div class="row">
-			<button mat-button routerLink="/classes">Découvrir nos classes</button>
-			<button mat-button routerLink="/volunteer">Devenir bénévole</button>
-		</div>
-	</app-content-section>
+	<div class="row">
+		<button mat-button routerLink="/classes">Découvrir nos classes</button>
+		<button mat-button routerLink="/volunteer">Devenir bénévole</button>
+	</div>
+</app-content-section>
 
-	<app-content-section-card [title]="`Nos projets`"
-		[subtitle]="`Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.`">
-		<mat-grid-list cols="2" rowHeight="3:1">
-			<mat-grid-tile>
-				<mat-card class="project-card" appearance="outlined">
-					<mat-card-header>
-						<mat-card-title>Communication efficace</mat-card-title>
-					</mat-card-header>
-					<mat-card-content>
-						<p>
-							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-							facilitateur.
-						</p>
-					</mat-card-content>
-					<mat-card-footer>
-						<button mat-button>En savoir plus</button>
-					</mat-card-footer>
-				</mat-card>
-			</mat-grid-tile>
-			<mat-grid-tile>
-				<mat-card class="project-card" appearance="outlined">
-					<mat-card-header>
-						<mat-card-title>Communication efficace</mat-card-title>
-					</mat-card-header>
-					<mat-card-content>
-						<p>
-							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-							facilitateur.
-						</p>
-					</mat-card-content>
-					<mat-card-footer>
-						<button mat-button>En savoir plus</button>
-					</mat-card-footer>
-				</mat-card>
-			</mat-grid-tile>
-			<mat-grid-tile>
-				<mat-card class="project-card" appearance="outlined">
-					<mat-card-header>
-						<mat-card-title>Communication efficace</mat-card-title>
-					</mat-card-header>
-					<mat-card-content>
-						<p>
-							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-							facilitateur.
-						</p>
-					</mat-card-content>
-					<mat-card-footer>
-						<button mat-button>En savoir plus</button>
-					</mat-card-footer>
-				</mat-card>
-			</mat-grid-tile>
-		</mat-grid-list>
-	</app-content-section-card>
+<app-content-section-card [title]="`Nos projets`"
+	[subtitle]="`Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.`">
+	<mat-grid-list cols="2" rowHeight="3:1">
+		<mat-grid-tile>
+			<mat-card class="project-card" appearance="outlined">
+				<mat-card-header>
+					<mat-card-title>Communication efficace</mat-card-title>
+				</mat-card-header>
+				<mat-card-content>
+					<p>
+						Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+						facilitateur.
+					</p>
+				</mat-card-content>
+				<mat-card-footer>
+					<button mat-button>En savoir plus</button>
+				</mat-card-footer>
+			</mat-card>
+		</mat-grid-tile>
+		<mat-grid-tile>
+			<mat-card class="project-card" appearance="outlined">
+				<mat-card-header>
+					<mat-card-title>Communication efficace</mat-card-title>
+				</mat-card-header>
+				<mat-card-content>
+					<p>
+						Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+						facilitateur.
+					</p>
+				</mat-card-content>
+				<mat-card-footer>
+					<button mat-button>En savoir plus</button>
+				</mat-card-footer>
+			</mat-card>
+		</mat-grid-tile>
+		<mat-grid-tile>
+			<mat-card class="project-card" appearance="outlined">
+				<mat-card-header>
+					<mat-card-title>Communication efficace</mat-card-title>
+				</mat-card-header>
+				<mat-card-content>
+					<p>
+						Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+						facilitateur.
+					</p>
+				</mat-card-content>
+				<mat-card-footer>
+					<button mat-button>En savoir plus</button>
+				</mat-card-footer>
+			</mat-card>
+		</mat-grid-tile>
+	</mat-grid-list>
+</app-content-section-card>
 
-	<app-content-section [title]="`Nos classes`"
-		[subtitle]="`Des formats simples et pratiques, adaptés à votre niveau.`">
+<app-content-section [title]="`Nos classes`" [subtitle]="`Des formats simples et pratiques, adaptés à votre niveau.`">
 
-		<mat-grid-list cols="2" rowHeight="3:1">
-			<mat-grid-tile>
-				<app-content-card class="classes-card" [title]="'Français - conversation et vie quotidienne'"
-					[content]="'Comprendre, parler et gagner en aisance dans les situations courantes.'"></app-content-card>
-			</mat-grid-tile>
+	<mat-grid-list cols="2" rowHeight="3:1">
+		<mat-grid-tile>
+			<app-content-card class="classes-card" [title]="'Français - conversation et vie quotidienne'"
+				[content]="'Comprendre, parler et gagner en aisance dans les situations courantes.'"></app-content-card>
+		</mat-grid-tile>
 
-			<mat-grid-tile>
-				<app-content-card class="classes-card" [title]="'Littératie numérique (bases)'"
-					[content]="'Utiliser smartphone, email, démarches en ligne et sécurité numérique.'"></app-content-card>
-			</mat-grid-tile>
+		<mat-grid-tile>
+			<app-content-card class="classes-card" [title]="'Littératie numérique (bases)'"
+				[content]="'Utiliser smartphone, email, démarches en ligne et sécurité numérique.'"></app-content-card>
+		</mat-grid-tile>
 
-			<mat-grid-tile>
-				<app-content-card class="classes-card" [title]="'IA utile au quotidien'"
-					[content]="`Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité.`"></app-content-card>
-			</mat-grid-tile>
+		<mat-grid-tile>
+			<app-content-card class="classes-card" [title]="'IA utile au quotidien'"
+				[content]="`Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité.`"></app-content-card>
+		</mat-grid-tile>
 
-		</mat-grid-list>
-	</app-content-section>
+	</mat-grid-list>
+</app-content-section>
 
-	<app-content-section-card [title]="`Comment nous aidons`">
-		<div style="font-size: x-large;">
-			1. Accompagnement bienveillant — à votre rythme
-			<br>
-			2. Méthodes pratiques — exercices concrets
-			<br>
-			3. Impact social — inclusion et autonomie
-			<br>
-		</div>
-	</app-content-section-card>
+<app-content-section-card [title]="`Comment nous aidons`">
+	<div style="font-size: x-large;">
+		1. Accompagnement bienveillant — à votre rythme
+		<br>
+		2. Méthodes pratiques — exercices concrets
+		<br>
+		3. Impact social — inclusion et autonomie
+		<br>
+	</div>
+</app-content-section-card>
 
-	<app-content-section [title]="`Agir avec nous`">
-		<p>
-			Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant l’association.
-		</p>
+<app-content-section [title]="`Agir avec nous`">
+	<p>
+		Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant l’association.
+	</p>
 
-		<button mat-button (click)="onClick()">Faire un don</button>
-	</app-content-section>
-
-
-</main>
+	<button mat-button (click)="onClick()">Faire un don</button>
+</app-content-section>

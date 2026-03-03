@@ -11,3 +11,8 @@
 	flex: 1;
 	overflow-y: auto;
 }
+
+.page-area {
+	padding-left: 5%;
+	padding-right: 5%;
+}
