@@ -25,6 +25,10 @@
   height: 95%;
 }
 
+.classes-card {
+  width: 95%;
+}
+
 mat-card-footer {
   margin-top: auto;
   padding: 16px;

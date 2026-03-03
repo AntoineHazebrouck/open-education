@@ -9,5 +9,6 @@ import { MatCardModule } from '@angular/material/card';
   styleUrl: './content-card.css',
 })
 export class ContentCard {
-  public readonly title = input<string>();
+  public readonly title = input.required<string>();
+  public readonly content = input.required<string>();
 }
