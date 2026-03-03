@@ -8,70 +8,59 @@
 		</div>
 	</app-content-section>
 
-	<mat-card class="projects-card" appearance="outlined">
-		<mat-card-header>
-			<mat-card-title>
-				<h2>Nos projets</h2>
-			</mat-card-title>
-		</mat-card-header>
-		<mat-card-content>
-
-			<h4>Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.</h4>
-
-			<mat-grid-list cols="2" rowHeight="3:1">
-				<mat-grid-tile>
-					<mat-card class="project-card" appearance="outlined">
-						<mat-card-header>
-							<mat-card-title>Communication efficace</mat-card-title>
-						</mat-card-header>
-						<mat-card-content>
-							<p>
-								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-								facilitateur.
-							</p>
-						</mat-card-content>
-						<mat-card-footer>
-							<button mat-button>En savoir plus</button>
-						</mat-card-footer>
-					</mat-card>
-				</mat-grid-tile>
-				<mat-grid-tile>
-					<mat-card class="project-card" appearance="outlined">
-						<mat-card-header>
-							<mat-card-title>Communication efficace</mat-card-title>
-						</mat-card-header>
-						<mat-card-content>
-							<p>
-								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-								facilitateur.
-							</p>
-						</mat-card-content>
-						<mat-card-footer>
-							<button mat-button>En savoir plus</button>
-						</mat-card-footer>
-					</mat-card>
-				</mat-grid-tile>
-				<mat-grid-tile>
-					<mat-card class="project-card" appearance="outlined">
-						<mat-card-header>
-							<mat-card-title>Communication efficace</mat-card-title>
-						</mat-card-header>
-						<mat-card-content>
-							<p>
-								Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
-								facilitateur.
-							</p>
-						</mat-card-content>
-						<mat-card-footer>
-							<button mat-button>En savoir plus</button>
-						</mat-card-footer>
-					</mat-card>
-				</mat-grid-tile>
-			</mat-grid-list>
-
-
-		</mat-card-content>
-	</mat-card>
+	<app-content-section-card [title]="`Nos projets`"
+		[subtitle]="`Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.`">
+		<mat-grid-list cols="2" rowHeight="3:1">
+			<mat-grid-tile>
+				<mat-card class="project-card" appearance="outlined">
+					<mat-card-header>
+						<mat-card-title>Communication efficace</mat-card-title>
+					</mat-card-header>
+					<mat-card-content>
+						<p>
+							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+							facilitateur.
+						</p>
+					</mat-card-content>
+					<mat-card-footer>
+						<button mat-button>En savoir plus</button>
+					</mat-card-footer>
+				</mat-card>
+			</mat-grid-tile>
+			<mat-grid-tile>
+				<mat-card class="project-card" appearance="outlined">
+					<mat-card-header>
+						<mat-card-title>Communication efficace</mat-card-title>
+					</mat-card-header>
+					<mat-card-content>
+						<p>
+							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+							facilitateur.
+						</p>
+					</mat-card-content>
+					<mat-card-footer>
+						<button mat-button>En savoir plus</button>
+					</mat-card-footer>
+				</mat-card>
+			</mat-grid-tile>
+			<mat-grid-tile>
+				<mat-card class="project-card" appearance="outlined">
+					<mat-card-header>
+						<mat-card-title>Communication efficace</mat-card-title>
+					</mat-card-header>
+					<mat-card-content>
+						<p>
+							Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme
+							facilitateur.
+						</p>
+					</mat-card-content>
+					<mat-card-footer>
+						<button mat-button>En savoir plus</button>
+					</mat-card-footer>
+				</mat-card>
+			</mat-grid-tile>
+		</mat-grid-list>
+	</app-content-section-card>
 
 	<app-content-section [title]="`Nos classes`"
 		[subtitle]="`Des formats simples et pratiques, adaptés à votre niveau.`">
