@@ -34,7 +34,7 @@
 								facilitateur.
 							</p>
 						</mat-card-content>
-						<mat-card-footer class="example-card-footer">
+						<mat-card-footer>
 							<button mat-button>En savoir plus</button>
 						</mat-card-footer>
 					</mat-card>
@@ -50,7 +50,7 @@
 								facilitateur.
 							</p>
 						</mat-card-content>
-						<mat-card-footer class="example-card-footer">
+						<mat-card-footer>
 							<button mat-button>En savoir plus</button>
 						</mat-card-footer>
 					</mat-card>
@@ -66,7 +66,7 @@
 								facilitateur.
 							</p>
 						</mat-card-content>
-						<mat-card-footer class="example-card-footer">
+						<mat-card-footer>
 							<button mat-button>En savoir plus</button>
 						</mat-card-footer>
 					</mat-card>
@@ -77,7 +77,13 @@
 		</mat-card-content>
 	</mat-card>
 
-	<!-- Nos classes (pas de mat-card autour) -->
+	<h1>Nos classes</h1>
+	<h4>Des formats simples et pratiques, adaptés à votre niveau.</h4>
+	<mat-grid-list cols="2" rowHeight="3:1">
+		<mat-grid-tile>
+			<app-content-card [title]="'Français - conversation et vie quotidienne'"></app-content-card>
+		</mat-grid-tile>
+	</mat-grid-list>
 
 	<button mat-button (click)="onClick()">Faire un don</button>
 </main>
