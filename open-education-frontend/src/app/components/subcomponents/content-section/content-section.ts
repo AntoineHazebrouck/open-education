@@ -9,5 +9,5 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class ContentSection {
   public readonly title = input.required<string>();
-  public readonly subtitle = input.required<string>();
+  public readonly subtitle = input<string>();
 }
