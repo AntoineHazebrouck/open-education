@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
@@ -9,5 +9,5 @@ import { MatCardModule } from '@angular/material/card';
 })
 export class ContentSectionCard {
   public readonly title = input.required<string>();
-  public readonly subtitle = input.required<string>();
+  public readonly subtitle = input<string>();
 }

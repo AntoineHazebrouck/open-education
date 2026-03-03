@@ -3,9 +3,12 @@
 		<mat-card-title>
 			<h2>{{title()}}</h2>
 		</mat-card-title>
+
+		@if(subtitle()) {
 		<mat-card-subtitle>
 			<h4>{{subtitle()}}</h4>
 		</mat-card-subtitle>
+		}
 
 	</mat-card-header>
 
