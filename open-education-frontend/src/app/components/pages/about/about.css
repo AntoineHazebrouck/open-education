@@ -1,10 +1,5 @@
-/* Using :host to style the component's host element */
 :host {
 	display: block;
-	/* Center the content and set a max-width for readability on large screens */
-	max-width: 960px;
-	margin: 40px auto;
-	padding: 0 20px;
 }
 
 /* A grid for Mission and Vision to sit side-by-side on larger screens */

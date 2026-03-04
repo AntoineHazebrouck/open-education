@@ -47,9 +47,10 @@ header {
   }
 
   p {
+    font-size: 1.15rem;
     color: var(--mat-sys-on-surface-variant);
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 75%;
     margin: 0 auto; /* Center the paragraph within the header section */
   }
 }
