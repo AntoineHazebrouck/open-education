@@ -1,0 +1,108 @@
+/* Using :host to style the component's host element */
+:host {
+	display: block;
+	/* Center the content and set a max-width for readability on large screens */
+	max-width: 960px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.header-section {
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.header-section h1 {
+	/* The mat-headline-large class handles font size, but we can adjust color and margin */
+	color: var(--mat-sys-primary);
+	margin-bottom: 24px;
+}
+
+.intro-paragraph {
+	/* The mat-body-large class handles font size, we adjust color and line-height */
+	color: var(--mat-sys-on-surface-variant);
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto; /* Center the paragraph within the header section */
+}
+
+/* A grid for Mission and Vision to sit side-by-side on larger screens */
+.mission-vision-grid {
+	display: grid;
+	grid-template-columns: 1fr; /* Default to single column */
+	gap: 40px;
+	margin-bottom: 48px;
+}
+
+/* On screens wider than 768px, use two columns */
+@media (min-width: 768px) {
+	.mission-vision-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/* Styling for generic content sections */
+.content-section,
+.mission-vision-grid section {
+	line-height: 1.7;
+}
+
+.content-section p,
+.mission-vision-grid p {
+	color: var(--mat-sys-on-surface-variant);
+}
+
+h2 {
+	/* The mat-headline-medium class handles font size */
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid var(--mat-sys-outline-variant);
+	color: var(--mat-sys-on-surface);
+}
+
+/* Specific styling for the values card to make it stand out */
+.values-card {
+	margin: 48px 0;
+	/* Use a slightly different background from the theme to create depth */
+	background-color: var(--mat-sys-surface-container-low);
+	border-left: 4px solid var(--mat-sys-primary);
+	box-shadow: none; /* A more sober look without heavy shadows */
+}
+
+.values-card .mat-mdc-card-header {
+	padding: 24px 24px 0 24px;
+}
+
+.values-card .mat-mdc-card-content {
+	padding: 16px 24px 24px 24px;
+}
+
+.values-card h2 {
+	border-bottom: none; /* No border needed inside the card */
+}
+
+.values-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.values-list li {
+	position: relative;
+	padding-left: 28px;
+	margin-bottom: 12px;
+	color: var(--mat-sys-on-surface-variant);
+}
+
+.values-list li::before {
+	content: '✓';
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-weight: 600;
+	color: var(--mat-sys-primary);
+}
+
+mat-divider {
+	margin: 48px 0;
+}
