@@ -7,25 +7,6 @@
 	padding: 0 20px;
 }
 
-.header-section {
-	text-align: center;
-	margin-bottom: 48px;
-}
-
-.header-section h1 {
-	/* The mat-headline-large class handles font size, but we can adjust color and margin */
-	color: var(--mat-sys-primary);
-	margin-bottom: 24px;
-}
-
-.intro-paragraph {
-	/* The mat-body-large class handles font size, we adjust color and line-height */
-	color: var(--mat-sys-on-surface-variant);
-	line-height: 1.6;
-	max-width: 800px;
-	margin: 0 auto; /* Center the paragraph within the header section */
-}
-
 /* A grid for Mission and Vision to sit side-by-side on larger screens */
 .mission-vision-grid {
 	display: grid;

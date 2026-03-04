@@ -36,3 +36,20 @@ body {
   margin: 0;
   height: 100%;
 }
+
+header {
+  text-align: center;
+  margin-bottom: 48px;
+
+  h1 {
+    color: var(--mat-sys-primary);
+    margin-bottom: 24px;
+  }
+
+  p {
+    color: var(--mat-sys-on-surface-variant);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto; /* Center the paragraph within the header section */
+  }
+}
