@@ -1,10 +1,24 @@
 :host {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	gap: 16px;
 	width: 100%;
 }
 
 :host ::ng-deep>* {
 	flex: 1;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+	:host {
+		flex-direction: column;
+	}
+
+	:host ::ng-content>*,
+	:host ::ng-deep>* {
+		flex: none;
+		width: 100%;
+	}
 }
