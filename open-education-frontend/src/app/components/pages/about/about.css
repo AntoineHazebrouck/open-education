@@ -5,7 +5,8 @@
 /* A grid for Mission and Vision to sit side-by-side on larger screens */
 .mission-vision-grid {
 	display: grid;
-	grid-template-columns: 1fr; /* Default to single column */
+	grid-template-columns: 1fr;
+	/* Default to single column */
 	gap: 40px;
 	margin-bottom: 48px;
 }
@@ -28,56 +29,6 @@
 	color: var(--mat-sys-on-surface-variant);
 }
 
-h2 {
-	/* The mat-headline-medium class handles font size */
-	margin-bottom: 16px;
-	padding-bottom: 8px;
-	border-bottom: 1px solid var(--mat-sys-outline-variant);
-	color: var(--mat-sys-on-surface);
-}
-
-/* Specific styling for the values card to make it stand out */
-.values-card {
-	margin: 48px 0;
-	/* Use a slightly different background from the theme to create depth */
-	background-color: var(--mat-sys-surface-container-low);
-	border-left: 4px solid var(--mat-sys-primary);
-	box-shadow: none; /* A more sober look without heavy shadows */
-}
-
-.values-card .mat-mdc-card-header {
-	padding: 24px 24px 0 24px;
-}
-
-.values-card .mat-mdc-card-content {
-	padding: 16px 24px 24px 24px;
-}
-
-.values-card h2 {
-	border-bottom: none; /* No border needed inside the card */
-}
-
-.values-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.values-list li {
-	position: relative;
-	padding-left: 28px;
-	margin-bottom: 12px;
-	color: var(--mat-sys-on-surface-variant);
-}
-
-.values-list li::before {
-	content: '✓';
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-weight: 600;
-	color: var(--mat-sys-primary);
-}
 
 mat-divider {
 	margin: 48px 0;

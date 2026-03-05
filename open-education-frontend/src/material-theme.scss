@@ -54,3 +54,13 @@ header {
     margin: 0 auto; /* Center the paragraph within the header section */
   }
 }
+
+section {
+  h2 {
+    /* The mat-headline-medium class handles font size */
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--mat-sys-outline-variant);
+    color: var(--mat-sys-on-surface);
+  }
+}
