@@ -29,6 +29,28 @@
 	color: var(--mat-sys-on-surface-variant);
 }
 
+.values-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 1rem;
+}
+
+.values-list li {
+	position: relative;
+	padding-left: 28px;
+	margin-bottom: 12px;
+	color: var(--mat-sys-on-surface-variant);
+}
+
+.values-list li::before {
+	content: '✓';
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-weight: 600;
+	color: var(--mat-sys-primary);
+}
 
 mat-divider {
 	margin: 48px 0;

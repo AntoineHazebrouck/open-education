@@ -22,6 +22,7 @@ npm run test
 
 ## TODO
 
+show current tab on the navbar
 dons HelloAsso -> demander au gars de creer un compte HelloAsso
 Agenda ?
 Page adhesion ? Page recrutement ?
