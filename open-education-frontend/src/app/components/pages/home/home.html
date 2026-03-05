@@ -98,21 +98,25 @@
 	</mat-card-content>
 </mat-card>
 
-<app-content-section-card [title]="`Comment nous aidons`">
-	<div style="font-size: x-large;">
-		1. Accompagnement bienveillant — à votre rythme
-		<br>
-		2. Méthodes pratiques — exercices concrets
-		<br>
-		3. Impact social — inclusion et autonomie
-		<br>
-	</div>
-</app-content-section-card>
+<row>
+	<section>
+		<h2>Agir avec nous</h2>
 
-<app-content-section [title]="`Agir avec nous`">
-	<p>
-		Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant l’association.
-	</p>
+		<p>
+			Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant l’association.
+		</p>
 
-	<button mat-button (click)="onClick()">Faire un don</button>
-</app-content-section>
+		<button mat-button (click)="onClick()">Faire un don</button>
+	</section>
+	<section>
+		<h2>Comment nous aidons</h2>
+		<div style="font-size: x-large;">
+			1. Accompagnement bienveillant — à votre rythme
+			<br>
+			2. Méthodes pratiques — exercices concrets
+			<br>
+			3. Impact social — inclusion et autonomie
+			<br>
+		</div>
+	</section>
+</row>

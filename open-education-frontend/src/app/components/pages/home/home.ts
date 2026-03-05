@@ -6,6 +6,7 @@ import { ContentCard } from '../../subcomponents/content-card/content-card';
 import { ContentSectionCard } from '../../subcomponents/content-section-card/content-section-card';
 import { ContentSection } from '../../subcomponents/content-section/content-section';
 import { MatIconModule } from '@angular/material/icon';
+import { Row } from '../../subcomponents/row/row';
 
 @Component({
   selector: 'app-home',
@@ -16,7 +17,8 @@ import { MatIconModule } from '@angular/material/icon';
     ContentCard,
     ContentSection,
     ContentSectionCard,
-    MatIconModule
+    MatIconModule,
+    Row,
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
