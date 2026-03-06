@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './row.html',
   styleUrl: './row.css',
 })
-export class Row {}
+export class Row {
+  // [style.gap]="'99px'"
+}
