@@ -12,10 +12,20 @@
 	overflow-y: auto;
 }
 
+/* mobile */
 .page-area {
 	padding-top: 2%;
-	/* TODO change for mobile */
-	padding-left: 17.5%;
-	padding-right: 17.5%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 	padding-bottom: 2%;
+}
+
+/* desktops */
+@media (min-width: 768px) {
+	.page-area {
+		padding-top: 2%;
+		padding-left: 17.5%;
+		padding-right: 17.5%;
+		padding-bottom: 2%;
+	}
 }
