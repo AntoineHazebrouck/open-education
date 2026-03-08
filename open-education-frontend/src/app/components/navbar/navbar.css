@@ -5,3 +5,27 @@
 .spacer {
   flex: 1 1 auto;
 }
+
+/* On change la couleur de fond et du texte pour le bouton actif */
+.active-btn {
+  background-color: var(--mat-sys-primary) !important;
+  color: var(--mat-sys-on-primary) !important;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 80%;
+  /* Le logo prend 80% de la hauteur de la toolbar */
+  text-decoration: none;
+  color: inherit;
+  /* Utilise la couleur du texte de la toolbar (noir/blanc) */
+}
+
+.logo-container svg {
+  height: 100%;
+  /* S'adapte à la hauteur du conteneur */
+  width: auto;
+  /* Garde les proportions */
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+}
