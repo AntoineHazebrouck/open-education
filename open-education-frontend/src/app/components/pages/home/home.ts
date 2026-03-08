@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { Center } from '../../subcomponents/center/center';
@@ -17,6 +18,7 @@ import { Row } from '../../subcomponents/row/row';
     MatIconModule,
     Row,
     Center,
+    MatExpansionModule,
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
