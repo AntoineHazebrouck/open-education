@@ -1,116 +1,181 @@
 <header>
-	<h1>Apprendre, s'intégrer et avancer avec confiance</h1>
+  <h1>Apprendre, s'intégrer et avancer avec confiance</h1>
 
-	<p>
-		Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce à l’apprentissage,
-		la littératie numérique et des projets éducatifs à impact social.
-	</p>
+  <p>
+    Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce à
+    l’apprentissage, la littératie numérique et des projets éducatifs à impact social.
+  </p>
 </header>
 
-
 <mat-card class="left-bordered-card">
-	<mat-card-header>
-		<mat-card-title>Nos projets</mat-card-title>
-		<mat-card-subtitle>
-			Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.
-		</mat-card-subtitle>
-	</mat-card-header>
-	<mat-card-content>
-		<row>
-			<app-content-card title="Communication efficace"
-				content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-				detailButton="En savoir plus"></app-content-card>
-			<app-content-card title="Communication efficace"
-				content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-				detailButton="En savoir plus"></app-content-card>
-		</row>
-		<row>
-			<app-content-card title="Communication efficace"
-				content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-				detailButton="En savoir plus"></app-content-card>
-		</row>
-
-	</mat-card-content>
+  <mat-card-header>
+    <mat-card-title>Nos projets</mat-card-title>
+    <mat-card-subtitle>
+      Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <row>
+      <app-content-card
+        title="Communication efficace"
+        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
+        detailButton="En savoir plus"
+      ></app-content-card>
+      <app-content-card
+        title="Communication efficace"
+        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
+        detailButton="En savoir plus"
+      ></app-content-card>
+    </row>
+    <row>
+      <app-content-card
+        title="Communication efficace"
+        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
+        detailButton="En savoir plus"
+      ></app-content-card>
+    </row>
+  </mat-card-content>
 </mat-card>
 
+<!-- 
+navigation="true"
+autoplay-delay="4000"
+inject-styles="true"
+loop="true"
+-->
+<swiper-container
+  pagination="true"
+  pagination-clickable="true"
+  navigation="true"
+  space-between="30"
+  loop="true"
+  class="hero-swiper"
+>
+  <swiper-slide>
+    <div class="slide-wrapper">
+      <img src="assets/cat1.jpg" alt="TODO"/>
+      <div class="slide-overlay">
+        <h1 class="slide-title">Apprendre avec confiance</h1>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="slide-wrapper">
+      <img src="assets/cat1.jpg" />
+      <div class="slide-overlay">
+        <h1 class="slide-title">Apprendre avec confiance</h1>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="slide-wrapper">
+      <img src="assets/cat1.jpg" />
+      <div class="slide-overlay">
+        <h1 class="slide-title">Apprendre avec confiance</h1>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="slide-wrapper">
+      <img src="assets/cat1.jpg" />
+      <div class="slide-overlay">
+        <h1 class="slide-title">Apprendre avec confiance</h1>
+      </div>
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+    <div class="slide-wrapper">
+      <img src="assets/cat1.jpg" />
+      <div class="slide-overlay">
+        <h1 class="slide-title">Apprendre avec confiance</h1>
+      </div>
+    </div>
+  </swiper-slide>
+</swiper-container>
+
 <row [style.gap]="'16px'">
-	<section>
-		<h2>Agir avec nous</h2>
+  <section>
+    <h2>Agir avec nous</h2>
 
-		<p>
-			Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant l’association.
-		</p>
+    <p>
+      Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant
+      l’association.
+    </p>
 
-		<app-center>
-			<a matButton="tonal" href="https://www.helloasso.com/associations/assodesjeunes4205/formulaires/1"
-				target="_blank">Faire un don</a>
-		</app-center>
-	</section>
-	<section>
-		<h2>Comment nous aidons</h2>
+    <app-center>
+      <a
+        matButton="tonal"
+        href="https://www.helloasso.com/associations/assodesjeunes4205/formulaires/1"
+        target="_blank"
+        >Faire un don</a
+      >
+    </app-center>
+  </section>
+  <section>
+    <h2>Comment nous aidons</h2>
 
-		<div class="how-we-help-list">
-			<div>
-				<mat-icon>spa</mat-icon>
-				<span>Accompagnement bienveillant — à votre rythme</span>
-			</div>
-			<div>
-				<mat-icon>lightbulb</mat-icon>
-				<span>Méthodes pratiques — exercices concrets</span>
-			</div>
-			<div>
-				<mat-icon>groups</mat-icon>
-				<span>Impact social — inclusion et autonomie</span>
-			</div>
-		</div>
-
-	</section>
+    <div class="how-we-help-list">
+      <div>
+        <mat-icon>spa</mat-icon>
+        <span>Accompagnement bienveillant — à votre rythme</span>
+      </div>
+      <div>
+        <mat-icon>lightbulb</mat-icon>
+        <span>Méthodes pratiques — exercices concrets</span>
+      </div>
+      <div>
+        <mat-icon>groups</mat-icon>
+        <span>Impact social — inclusion et autonomie</span>
+      </div>
+    </div>
+  </section>
 </row>
 
 <mat-card class="left-bordered-card">
-	<mat-card-header>
-		<mat-card-title>Nos classes</mat-card-title>
-		<mat-card-subtitle>
-			Des formats simples et pratiques, adaptés à votre niveau.
-		</mat-card-subtitle>
-	</mat-card-header>
-	<mat-card-content>
-
-		<row>
-			<app-content-card title="Français - conversation et vie quotidienne"
-				content="Comprendre, parler et gagner en aisance dans les situations courantes."
-				detailButton="Voir la classe"></app-content-card>
-			<app-content-card title="Littératie numérique (bases)"
-				content="Utiliser smartphone, email, démarches en ligne et sécurité numérique."
-				detailButton="Voir la classe"></app-content-card>
-		</row>
-		<row>
-			<app-content-card title="IA utile au quotidien"
-				content="Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité."
-				detailButton="Voir la classe"></app-content-card>
-		</row>
-	</mat-card-content>
+  <mat-card-header>
+    <mat-card-title>Nos classes</mat-card-title>
+    <mat-card-subtitle>
+      Des formats simples et pratiques, adaptés à votre niveau.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <row>
+      <app-content-card
+        title="Français - conversation et vie quotidienne"
+        content="Comprendre, parler et gagner en aisance dans les situations courantes."
+        detailButton="Voir la classe"
+      ></app-content-card>
+      <app-content-card
+        title="Littératie numérique (bases)"
+        content="Utiliser smartphone, email, démarches en ligne et sécurité numérique."
+        detailButton="Voir la classe"
+      ></app-content-card>
+    </row>
+    <row>
+      <app-content-card
+        title="IA utile au quotidien"
+        content="Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité."
+        detailButton="Voir la classe"
+      ></app-content-card>
+    </row>
+  </mat-card-content>
 </mat-card>
 
 <section>
-	<h2>Questions fréquentes</h2>
+  <h2>Questions fréquentes</h2>
 
-	<mat-accordion>
-		<mat-expansion-panel>
-			<mat-expansion-panel-header>
-				<mat-panel-title>
-					C’est gratuit ?
-				</mat-panel-title>
-			</mat-expansion-panel-header>
-			<p>Nous proposons des actions <u>gratuites ou à tarif solidaire</u> selon les formats.</p>
-		</mat-expansion-panel>
-		<mat-expansion-panel>
-			<mat-expansion-panel-header>
-				<mat-panel-title>
-					Où ont lieu les activités ?
-				</mat-panel-title>
-			</mat-expansion-panel-header>
-			<p>En <u>Île-de-France et/ou à distance</u> selon les activités.</p>
-		</mat-expansion-panel>
-	</mat-accordion>
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title> C’est gratuit ? </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>Nous proposons des actions <u>gratuites ou à tarif solidaire</u> selon les formats.</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title> Où ont lieu les activités ? </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p>En <u>Île-de-France et/ou à distance</u> selon les activités.</p>
+    </mat-expansion-panel>
+  </mat-accordion>
 </section>
