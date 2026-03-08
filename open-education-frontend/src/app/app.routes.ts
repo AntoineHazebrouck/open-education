@@ -6,7 +6,7 @@ export const routes: Routes = [
   {
     path: '',
     component: Home,
-    title: ``,
+    title: `Open education - Accueil`,
   },
   {
     path: 'about',
