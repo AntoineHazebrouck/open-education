@@ -25,7 +25,11 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/material-theme.scss", "src/styles.css"]
+            "styles": [
+              "src/material-theme.scss",
+              "src/styles.css",
+              "src/material-theme-override.scss"
+            ]
           },
           "configurations": {
             "production": {
