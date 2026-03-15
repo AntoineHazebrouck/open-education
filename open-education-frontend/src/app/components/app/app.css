@@ -27,5 +27,10 @@
 		padding-left: 17.5%;
 		padding-right: 17.5%;
 		padding-bottom: 2%;
+		background: linear-gradient(to right,
+				var(--mat-sys-outline) 0%,
+				var(--mat-sys-surface) 15%,
+				var(--mat-sys-surface) 85%,
+				var(--mat-sys-outline) 100%);
 	}
 }
