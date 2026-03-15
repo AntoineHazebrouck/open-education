@@ -10,6 +10,7 @@ import { MatCardModule } from '@angular/material/card';
 })
 export class ContentCard {
   public readonly title = input.required<string>();
+  public readonly subtitle = input<string>();
   public readonly content = input.required<string>();
   public readonly detailButton = input.required<string>();
 }
