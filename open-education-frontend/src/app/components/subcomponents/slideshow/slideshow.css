@@ -6,6 +6,9 @@ swiper-container {
 	overflow: hidden;
 
 	--swiper-theme-color: var(--mat-sys-primary);
+
+	border-style: solid;
+	border-width: 1px;
 }
 
 swiper-slide {
