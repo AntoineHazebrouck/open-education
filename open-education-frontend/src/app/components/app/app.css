@@ -24,13 +24,10 @@
 @media (min-width: 768px) {
 	.page-area {
 		padding-top: 2%;
-		padding-left: 17.5%;
-		padding-right: 17.5%;
+		padding-left: 12.5%;
+		padding-right: 12.5%;
 		padding-bottom: 2%;
-		background: linear-gradient(to right,
-				var(--mat-sys-outline) 0%,
-				var(--mat-sys-surface) 15%,
-				var(--mat-sys-surface) 85%,
-				var(--mat-sys-outline) 100%);
 	}
 }
+
+/* TODO tester toutes les resolutions */

@@ -13,4 +13,6 @@ export class ContentCard {
   public readonly subtitle = input<string>();
   public readonly content = input.required<string>();
   public readonly detailButton = input.required<string>();
+  public readonly metadataRow1 = input<string>();
+  public readonly metadataRow2 = input<string>();
 }
