@@ -13,5 +13,4 @@ export const routes: Routes = [
     component: About,
     title: `L'association`,
   },
-  { path: '**', redirectTo: '' }, // redirect 404 to home
 ];

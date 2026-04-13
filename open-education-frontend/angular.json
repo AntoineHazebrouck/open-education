@@ -23,12 +23,16 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
               }
             ],
             "styles": [
-              "src/material-theme.scss",
-              "src/styles.css",
-              "src/material-theme-override.scss"
+              "src/theme.less",
+              "src/styles.css"
             ]
           },
           "configurations": {
