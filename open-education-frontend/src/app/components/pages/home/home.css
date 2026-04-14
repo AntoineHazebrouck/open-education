@@ -1,3 +1,5 @@
+/* // @import "src/theme.less"; */
+
 :host {
 	display: block;
 }
@@ -6,4 +8,41 @@
 	display: flex;
 	align-items: center;
 	gap: 8px;
+}
+
+nz-card-meta {
+	padding: 12px;
+
+}
+
+.card-big-title ::ng-deep .ant-card-meta-title {
+	font-size: 1.5rem;
+}
+
+.card-big-title ::ng-deep .ant-card-meta-description {
+	font-size: 1.25rem;
+}
+
+[nz-card-grid] {
+	padding: 0;
+
+	nz-card-meta {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+[nz-carousel-content] {
+	text-align: center;
+	height: 160px;
+	line-height: 160px;
+	background: #364d79;
+	color: #fff;
+	overflow: hidden;
+}
+
+h3 {
+	color: #fff;
+	margin-bottom: 0;
+	user-select: none;
 }

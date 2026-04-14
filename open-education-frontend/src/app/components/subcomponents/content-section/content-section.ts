@@ -1,9 +1,8 @@
 import { Component, input } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-content-section',
-  imports: [MatButtonModule],
+  imports: [],
   templateUrl: './content-section.html',
   styleUrl: './content-section.css',
 })

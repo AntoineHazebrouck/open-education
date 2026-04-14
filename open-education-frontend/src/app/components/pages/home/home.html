@@ -1,41 +1,87 @@
-<header>
-  <h1>Apprendre, s'intégrer et avancer avec confiance</h1>
+<div nz-flex nzVertical="true" nzAlign="center">
+  <header>
+    <h1>Apprendre, s'intégrer et avancer avec confiance</h1>
 
-  <p>
-    Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce à
-    l’apprentissage, la littératie numérique et des projets éducatifs à impact social.
-  </p>
-</header>
+    <p>
+      Open Education | Association accompagne les personnes vulnérables et nouveaux arrivants grâce
+      à l’apprentissage, la littératie numérique et des projets éducatifs à impact social.
+    </p>
+  </header>
 
-<mat-card class="left-bordered-card">
-  <mat-card-header>
-    <mat-card-title>Nos projets</mat-card-title>
-    <mat-card-subtitle>
-      Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion.
-    </mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <row>
-      <app-content-card
-        title="Communication efficace"
-        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-        detailButton="En savoir plus"
-      ></app-content-card>
-      <app-content-card
-        title="Communication efficace"
-        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-        detailButton="En savoir plus"
-      ></app-content-card>
-    </row>
-    <row>
-      <app-content-card
-        title="Communication efficace"
-        content="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur."
-        detailButton="En savoir plus"
-      ></app-content-card>
-    </row>
-  </mat-card-content>
-</mat-card>
+  <nz-card style="width: 100%">
+    <nz-card-meta
+      class="card-big-title"
+      nzTitle="Nos projets"
+      nzDescription="Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion."
+    />
+
+    <div nz-card-grid style="width: 50%; text-align: center">
+      <nz-card
+        style="width: 100%"
+        [nzCover]="coverTemplate"
+        [nzActions]="[actionSeeDetails]"
+        nzSize="small"
+      >
+        <nz-card-meta
+          nzTitle="Communication efficace"
+          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
+        />
+      </nz-card>
+    </div>
+    <div nz-card-grid style="width: 50%; text-align: center">
+      <nz-card
+        style="width: 100%"
+        [nzCover]="coverTemplate"
+        [nzActions]="[actionSeeDetails]"
+        nzSize="small"
+      >
+        <nz-card-meta
+          nzTitle="Communication efficace"
+          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
+        />
+      </nz-card>
+    </div>
+    <div nz-card-grid style="width: 100%; text-align: center">
+      <nz-card
+        style="width: 100%"
+        [nzCover]="coverTemplate"
+        [nzActions]="[actionSeeDetails]"
+        nzSize="small"
+      >
+        <nz-card-meta
+          nzTitle="Communication efficace"
+          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
+        />
+      </nz-card>
+    </div>
+  </nz-card>
+
+  <h2>Nos activités</h2>
+
+  <nz-carousel nzAutoPlay>
+    <div nz-carousel-content>
+      <h3>qsdsdqsd</h3>
+    </div>
+    <div nz-carousel-content>
+      <h3>qsdsdqsd</h3>
+    </div>
+    <div nz-carousel-content>
+      <h3>qsdsdqsd</h3>
+    </div>
+    <div nz-carousel-content>
+      <h3>qsdsdqsd</h3>
+    </div>
+  </nz-carousel>
+</div>
+
+<ng-template #coverTemplate>
+  <img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />
+</ng-template>
+<ng-template #actionSeeDetails>
+  <span>Voir plus</span>
+</ng-template>
+
+<!-- 
 
 <section>
   <h2>Nos activités</h2>
@@ -137,4 +183,4 @@
       <p>En <u>Île-de-France et/ou à distance</u> selon les activités.</p>
     </mat-expansion-panel>
   </mat-accordion>
-</section>
+</section> -->

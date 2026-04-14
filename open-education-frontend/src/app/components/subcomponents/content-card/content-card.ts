@@ -1,10 +1,11 @@
 import { Component, input } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzCardModule } from 'ng-zorro-antd/card';
+
 
 @Component({
   selector: 'app-content-card',
-  imports: [MatCardModule, MatButtonModule],
+  imports: [NzCardModule, NzButtonModule],
   templateUrl: './content-card.html',
   styleUrl: './content-card.css',
 })
