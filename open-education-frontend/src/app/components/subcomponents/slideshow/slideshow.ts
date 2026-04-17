@@ -1,10 +1,11 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component } from '@angular/core';
+import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 
 @Component({
   selector: 'app-slideshow',
-  imports: [],
+  imports: [NzCarouselModule],
   templateUrl: './slideshow.html',
   styleUrl: './slideshow.css',
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  schemas: [],
 })
 export class Slideshow {}
