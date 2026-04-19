@@ -104,32 +104,10 @@
   <!-- #endregion -->
 
   <!-- #region -->
-  <h2>Nos classes</h2>
-  <p>Des formats simples et pratiques, adaptés à votre niveau.</p>
-
-  <div nz-flex [nzVertical]="true" [nzGap]="'small'" [nzAlign]="'center'" style="width: 100%">
-    <app-classes-card
-      title="Français - conversation et vie quotidienne"
-      text="Comprendre, parler et gagner en aisance dans les situations courantes."
-      [isFree]="false"
-      [isInPerson]="false"
-    />
-    <app-classes-card
-      title="Littératie numérique (bases)"
-      text="Utiliser smartphone, email, démarches en ligne et sécurité numérique."
-      [isFree]="false"
-      [isInPerson]="true"
-    />
-    <app-classes-card
-      title="IA utile au quotidien"
-      text="Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité."
-      [isFree]="true"
-      [isInPerson]="true"
-    />
-  </div>
+  <app-classes fullwidth/>
   <!-- #endregion -->
 
-  <app-questions fullwidth/>
+  <app-questions fullwidth />
 </div>
 
 <ng-template #classesCardHeaderTemplate>

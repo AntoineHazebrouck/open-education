@@ -6,9 +6,9 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzFlexModule } from 'ng-zorro-antd/flex';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
-import { ClassesCard } from '../../subcomponents/classes-card/classes-card';
-import { Slideshow } from '../../subcomponents/slideshow/slideshow';
+import { Classes } from '../../subcomponents/classes/classes';
 import { Questions } from '../../subcomponents/questions/questions';
+import { Slideshow } from '../../subcomponents/slideshow/slideshow';
 
 @Component({
   selector: 'app-home',
@@ -21,8 +21,8 @@ import { Questions } from '../../subcomponents/questions/questions';
     NzBadgeModule,
     NzCollapseModule,
     Slideshow,
-    ClassesCard,
-    Questions
+    Questions,
+    Classes,
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
