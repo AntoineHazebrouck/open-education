@@ -4,7 +4,6 @@ import { NzBadgeModule } from 'ng-zorro-antd/badge';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzFlexModule } from 'ng-zorro-antd/flex';
-import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
 @Component({
@@ -13,7 +12,6 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     NzCardModule,
     NzFlexModule,
     NzButtonModule,
-    NzGridModule,
     NzIconModule,
     NzBadgeModule,
     NgTemplateOutlet,

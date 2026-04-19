@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+
 /* TODO move to component */
 /* Specific styling for the values card to make it stand out */
 mat-card.left-bordered-card {
@@ -41,4 +43,8 @@ section {
 		border-bottom: 1px solid var(--mat-sys-outline-variant);
 		color: var(--mat-sys-on-surface);
 	}
+}
+
+[widthful] {
+	width: 100%;
 }
