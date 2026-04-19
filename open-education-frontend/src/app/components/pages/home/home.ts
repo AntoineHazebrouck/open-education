@@ -7,6 +7,7 @@ import { NzFlexModule } from 'ng-zorro-antd/flex';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { Classes } from '../../subcomponents/classes/classes';
+import { Infos } from '../../subcomponents/infos/infos';
 import { Questions } from '../../subcomponents/questions/questions';
 import { Slideshow } from '../../subcomponents/slideshow/slideshow';
 
@@ -23,6 +24,7 @@ import { Slideshow } from '../../subcomponents/slideshow/slideshow';
     Slideshow,
     Questions,
     Classes,
+    Infos,
   ],
   templateUrl: './home.html',
   styleUrl: './home.css',
