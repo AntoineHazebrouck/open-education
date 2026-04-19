@@ -1,4 +1,4 @@
-<div nz-flex [nzVertical]="true" [nzAlign]="'center'" [nzGap]="100">
+<div nz-flex [nzVertical]="true" [nzAlign]="'center'" [nzGap]="70">
   <header>
     <h1>Apprendre, s'intégrer et avancer avec confiance</h1>
 
@@ -129,20 +129,7 @@
   </div>
   <!-- #endregion -->
 
-  <!-- #region -->
-  <h2>Questions fréquentes</h2>
-
-  <nz-collapse widthful>
-    <nz-collapse-panel nzHeader="C'est gratuit ?">
-      <p style="margin: 0">
-        Nous proposons des actions <u>gratuites ou à tarif solidaire</u> selon les formats.
-      </p>
-    </nz-collapse-panel>
-    <nz-collapse-panel nzHeader="Où ont lieu les activités ?">
-      <p style="margin: 0">En <u>Île-de-France et/ou à distance</u> selon les activités.</p>
-    </nz-collapse-panel>
-  </nz-collapse>
-  <!-- #endregion -->
+  <app-questions fullwidth/>
 </div>
 
 <ng-template #classesCardHeaderTemplate>
@@ -169,63 +156,3 @@
 <ng-template #actionSeeDetails>
   <span>Voir plus</span>
 </ng-template>
-
-<!-- 
-
-<mat-card class="left-bordered-card">
-  <mat-card-header>
-    <mat-card-title>Nos classes</mat-card-title>
-    <mat-card-subtitle>
-      Des formats simples et pratiques, adaptés à votre niveau.
-    </mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <row>
-      <app-content-card
-        title="Français - conversation et vie quotidienne"
-        subtitle="Du 20/06/2026 au 20/07/2026"
-        content="Comprendre, parler et gagner en aisance dans les situations courantes."
-        metadataRow1="Tarif solidaire"
-        metadataRow2="Distanciel"
-        detailButton="S'inscrire"
-      ></app-content-card>
-      <app-content-card
-        title="Littératie numérique (bases)"
-        subtitle="Du 20/06/2026 au 20/07/2026"
-        content="Utiliser smartphone, email, démarches en ligne et sécurité numérique."
-        metadataRow1="Tarif solidaire"
-        metadataRow2="Présentiel"
-        detailButton="S'inscrire"
-      ></app-content-card>
-    </row>
-    <row>
-      <app-content-card
-        title="IA utile au quotidien"
-        subtitle="Du 20/06/2026 au 20/07/2026"
-        content="Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité."
-        metadataRow1="Gratuit"
-        metadataRow2="Présentiel"
-        detailButton="S'inscrire"
-      ></app-content-card>
-    </row>
-  </mat-card-content>
-</mat-card>
-
-<section>
-  <h2>Questions fréquentes</h2>
-
-  <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> C’est gratuit ? </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>Nous proposons des actions <u>gratuites ou à tarif solidaire</u> selon les formats.</p>
-    </mat-expansion-panel>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title> Où ont lieu les activités ? </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>En <u>Île-de-France et/ou à distance</u> selon les activités.</p>
-    </mat-expansion-panel>
-  </mat-accordion>
-</section> -->
