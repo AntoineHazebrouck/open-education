@@ -5,10 +5,21 @@ import { NzFlexModule } from 'ng-zorro-antd/flex';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { Slideshow } from '../../subcomponents/slideshow/slideshow';
+import { NzBadgeModule } from 'ng-zorro-antd/badge';
+import { ClassesCard } from '../../subcomponents/classes-card/classes-card';
 
 @Component({
   selector: 'app-home',
-  imports: [NzCardModule, NzFlexModule, NzButtonModule, NzGridModule, NzIconModule, Slideshow],
+  imports: [
+    NzCardModule,
+    NzFlexModule,
+    NzButtonModule,
+    NzGridModule,
+    NzIconModule,
+    NzBadgeModule,
+    Slideshow,
+    ClassesCard
+  ],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

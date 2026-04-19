@@ -1,0 +1,39 @@
+@if (isFree()) {
+  <nz-ribbon nzText="Gratuit" [nzColor]="'green'" style="width: 100%">
+    <div *ngTemplateOutlet="card"></div>
+  </nz-ribbon>
+} @else {
+  <div style="width: 100%">
+    <div *ngTemplateOutlet="card"></div>
+  </div>
+}
+
+<ng-template #card>
+  <nz-card style="width: 100%" [nzTitle]="classesCardHeaderTemplate" [nzActions]="[actionEllipsis]">
+    <nz-card-meta [nzDescription]="text()" />
+  </nz-card>
+</ng-template>
+
+<ng-template #classesCardHeaderTemplate>
+  <div nz-flex [nzJustify]="'space-between'">
+    <div nz-flex [nzVertical]="true">
+      <h2>{{ title() }}</h2>
+
+      <!-- TODO parametrize dates -->
+      <u>Du 20/06/2026 au 20/07/2026</u>
+    </div>
+    <div nz-flex [nzVertical]="true" [nzJustify]="'flex-end'" [nzGap]="'small'">
+      @if (!isFree()) {
+        <nz-badge nzText="Tarif solidaire" nzColor="green" />
+      }
+      <nz-badge [nzText]="isInPerson() ? 'Présentiel' : 'Distanciel'" nzColor="cyan" />
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #actionEllipsis>
+  <button nz-button nzType="primary">
+    <nz-icon nzType="send" />
+    S'inscrire
+  </button>
+</ng-template>

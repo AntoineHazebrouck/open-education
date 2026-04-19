@@ -102,7 +102,51 @@
     </div>
   </div>
   <!-- #endregion -->
+
+  <!-- #region -->
+  <h2>Nos classes</h2>
+  <p>Des formats simples et pratiques, adaptés à votre niveau.</p>
+
+  <div nz-flex [nzVertical]="true" [nzGap]="'small'" [nzAlign]="'center'" style="width: 100%">
+    <app-classes-card
+      title="Français - conversation et vie quotidienne"
+      text="Comprendre, parler et gagner en aisance dans les situations courantes."
+      [isFree]="false"
+      [isInPerson]="false"
+    />
+    <app-classes-card
+      title="Littératie numérique (bases)"
+      text="Utiliser smartphone, email, démarches en ligne et sécurité numérique."
+      [isFree]="false"
+      [isInPerson]="true"
+    />
+    <app-classes-card
+      title="IA utile au quotidien"
+      text="Utiliser l’IA pour traduire, écrire, apprendre et s’orienter, en toute sécurité."
+      [isFree]="true"
+      [isInPerson]="true"
+    />
+  </div>
+  <!-- #endregion -->
 </div>
+
+<ng-template #classesCardHeaderTemplate>
+  <div nz-flex [nzJustify]="'space-between'">
+    <div nz-flex [nzVertical]="true">
+      <h2>Français - conversation et vie quotidienne</h2>
+
+      <u>Du 20/06/2026 au 20/07/2026</u>
+    </div>
+    <div nz-flex [nzVertical]="true" nzJustify="flex-end">
+      <nz-badge nzText="qsdsqd" nzStatus="success" />
+      <button nz-button nzType="primary">Primary</button>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #extraTemplate>
+  <a>More</a>
+</ng-template>
 
 <ng-template #coverTemplate>
   <img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />
@@ -112,50 +156,6 @@
 </ng-template>
 
 <!-- 
-
-<section>
-  <h2>Nos activités</h2>
-
-  <app-slideshow></app-slideshow>
-</section>
-
-<row [style.gap]="'16px'">
-  <section>
-    <h2>Agir avec nous</h2>
-
-    <p>
-      Vous pouvez contribuer en devenant bénévole, en relayant nos actions ou en soutenant
-      l’association.
-    </p>
-
-    <app-center>
-      <a
-        matButton="tonal"
-        href="https://www.helloasso.com/associations/assodesjeunes4205/formulaires/1"
-        target="_blank"
-        >Faire un don</a
-      >
-    </app-center>
-  </section>
-  <section>
-    <h2>Comment nous aidons</h2>
-
-    <div class="how-we-help-list">
-      <div>
-        <mat-icon>spa</mat-icon>
-        <span>Accompagnement bienveillant — à votre rythme</span>
-      </div>
-      <div>
-        <mat-icon>lightbulb</mat-icon>
-        <span>Méthodes pratiques — exercices concrets</span>
-      </div>
-      <div>
-        <mat-icon>groups</mat-icon>
-        <span>Impact social — inclusion et autonomie</span>
-      </div>
-    </div>
-  </section>
-</row>
 
 <mat-card class="left-bordered-card">
   <mat-card-header>
