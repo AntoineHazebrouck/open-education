@@ -1,0 +1,5 @@
+.how-we-help-list>div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}

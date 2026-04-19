@@ -1,0 +1,13 @@
+nz-card-meta {
+	padding: 12px;
+
+}
+
+[nz-card-grid] {
+	padding: 0;
+
+	nz-card-meta {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

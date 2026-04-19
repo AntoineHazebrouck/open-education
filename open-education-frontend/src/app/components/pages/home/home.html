@@ -8,55 +8,9 @@
     </p>
   </header>
 
-  <nz-card style="width: 100%">
-    <nz-card-meta
-      class="card-big-title"
-      nzTitle="Nos projets"
-      nzDescription="Des programmes concrets pour renforcer l’autonomie, la communication et l’inclusion."
-    />
+  <app-projects fullwidth />
 
-    <div nz-card-grid style="width: 50%; text-align: center">
-      <nz-card
-        style="width: 100%"
-        [nzCover]="coverTemplate"
-        [nzActions]="[actionSeeDetails]"
-        nzSize="small"
-      >
-        <nz-card-meta
-          nzTitle="Communication efficace"
-          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
-        />
-      </nz-card>
-    </div>
-    <div nz-card-grid style="width: 50%; text-align: center">
-      <nz-card
-        style="width: 100%"
-        [nzCover]="coverTemplate"
-        [nzActions]="[actionSeeDetails]"
-        nzSize="small"
-      >
-        <nz-card-meta
-          nzTitle="Communication efficace"
-          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
-        />
-      </nz-card>
-    </div>
-    <div nz-card-grid style="width: 100%; text-align: center">
-      <nz-card
-        style="width: 100%"
-        [nzCover]="coverTemplate"
-        [nzActions]="[actionSeeDetails]"
-        nzSize="small"
-      >
-        <nz-card-meta
-          nzTitle="Communication efficace"
-          nzDescription="Améliorer les relations et la confiance grâce à des techniques sociales et l'IA comme facilitateur"
-        />
-      </nz-card>
-    </div>
-  </nz-card>
-
-  <app-slideshow />
+  <app-slideshow fullwidth />
 
   <app-infos fullwidth />
 
@@ -64,28 +18,3 @@
 
   <app-questions fullwidth />
 </div>
-
-<ng-template #classesCardHeaderTemplate>
-  <div nz-flex [nzJustify]="'space-between'">
-    <div nz-flex [nzVertical]="true">
-      <h2>Français - conversation et vie quotidienne</h2>
-
-      <u>Du 20/06/2026 au 20/07/2026</u>
-    </div>
-    <div nz-flex [nzVertical]="true" nzJustify="flex-end">
-      <nz-badge nzText="qsdsqd" nzStatus="success" />
-      <button nz-button nzType="primary">Primary</button>
-    </div>
-  </div>
-</ng-template>
-
-<ng-template #extraTemplate>
-  <a>More</a>
-</ng-template>
-
-<ng-template #coverTemplate>
-  <img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />
-</ng-template>
-<ng-template #actionSeeDetails>
-  <span>Voir plus</span>
-</ng-template>
