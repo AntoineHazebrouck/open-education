@@ -1,36 +1,45 @@
-<!-- <div class="about-container">
-	<header>
-		<h1>L'association - qui sommes-nous ?</h1>
-		<p>
-			Open Education | Association est une organisation éducative à but non lucratif basée à Paris. Elle œuvre
-			pour le droit à l’apprentissage et l’élévation des capacités des personnes en situation de vulnérabilité, en
-			particulier les femmes et les personnes récemment arrivées en France. Toutes nos actions sont gratuites.
-		</p>
-	</header>
+<div nz-flex [nzVertical]="true" [nzAlign]="'center'" [nzGap]="70">
+  <header>
+    <h1>L'association - qui sommes-nous ?</h1>
+    <p>
+      Open Education | Association est une organisation éducative à but non lucratif basée à Paris.
+      Elle œuvre pour le droit à l’apprentissage et l’élévation des capacités des personnes en
+      situation de vulnérabilité, en particulier les femmes et les personnes récemment arrivées en
+      France. Toutes nos actions sont gratuites.
+    </p>
+  </header>
 
-	<row [style.gap]="'16px'">
-		<section>
-			<h2>Notre mission</h2>
-			<p>
-				Nous défendons le droit fondamental à l’apprentissage. Chaque personne, quel que soit son parcours
-				social ou
-				économique, a le droit d’apprendre, de se former et de développer ses capacités afin de construire un
-				avenir
-				meilleur, dans le respect du cadre légal.
-			</p>
-		</section>
-		<section>
-			<h2>Notre vision</h2>
-			<p>
-				D’ici cinq ans, Open Education | Association ambitionne de devenir une grande plateforme éducative en
-				ligne, où
-				les individus pourront partager librement leurs savoirs, expériences et compétences au service des
-				autres.
-			</p>
-		</section>
-	</row>
+  <div nz-flex [nzGap]="'small'">
+    <section>
+      <h2>Notre mission</h2>
+      <p>
+        Nous défendons le droit fondamental à l’apprentissage. Chaque personne, quel que soit son
+        parcours social ou économique, a le droit d’apprendre, de se former et de développer ses
+        capacités afin de construire un avenir meilleur, dans le respect du cadre légal.
+      </p>
+    </section>
+    <section>
+      <h2>Notre vision</h2>
+      <p>
+        D’ici cinq ans, Open Education | Association ambitionne de devenir une grande plateforme
+        éducative en ligne, où les individus pourront partager librement leurs savoirs, expériences
+        et compétences au service des autres.
+      </p>
+    </section>
+  </div>
 
-	<row>
+  <section>
+    <nz-card nzTitle="Valeurs et approche">
+      <ul class="values-list">
+        <li>Droit universel à l’éducation</li>
+        <li>Dignité humaine et égalité d’accès</li>
+        <li>Utilisation éthique des technologies pour faciliter l’apprentissage</li>
+        <li>Apprentissage au service de l’autonomie et de l’inclusion sociale</li>
+      </ul>
+    </nz-card>
+  </section>
+
+  <!-- <row>
 		<mat-card class="left-bordered-card" style="flex: 0 0 fit-content; margin-left: auto; margin-right: auto;">
 			<mat-card-header>
 				<mat-card-title>Valeurs et approche</mat-card-title>
@@ -44,43 +53,52 @@
 				</ul>
 			</mat-card-content>
 		</mat-card>
-	</row>
+	</row> -->
 
-	<section class="content-section">
-		<h2>À propos du fondateur</h2>
-		<p>
-			Je m’appelle Rohullah Hessam, diplômé en psychologie de l’éducation. Mon parcours est celui d’un homme qui
-			croit
-			profondément au droit d’apprendre, même dans les situations les plus difficiles.
-		</p>
-		<p>
-			En 2018, dans mon pays d’origine, j’étais fondateur et président d’une grande organisation éducative et
-			engagé au
-			service public. À la suite d’événements politiques majeurs, j’ai été contraint de quitter mon pays. En
-			l’espace
-			de quelques jours, toute ma vie professionnelle et personnelle a basculé.
-		</p>
-		<p>
-			Arrivé en France en 2022 dans le cadre d’un programme de relocalisation, j’ai traversé une période
-			extrêmement difficile. Ne maîtrisant pas la langue, malgré mes droits, je n’ai pas pu accéder immédiatement
-			à
-			l’aide et à l’hébergement. Cette expérience m’a profondément marqué et m’a fait comprendre à quel point
-			l’apprentissage, la langue et l’accès à l’information sont essentiels pour préserver la dignité humaine.
-		</p>
-		<p>
-			Aujourd’hui, accueilli temporairement par une famille française solidaire, je poursuis mon engagement avec
-			détermination et reconnaissance envers la France et ses citoyens. J’ai fondé Open Education | Association
-			pour
-			offrir des espaces d’apprentissage accessibles, humains et gratuits.
-		</p>
-	</section>
+  <div style="display: block; overflow: auto">
+    <section>
+      <h2 style="margin-top: 0">À propos du fondateur</h2>
 
-	<section class="content-section">
-		<h2>Nos partenaires</h2>
-		<p>
-			Nous collaborons avec des associations, bénévoles et structures engagées dans l’éducation, l’inclusion
-			sociale et
-			l’accompagnement des publics vulnérables.
-		</p>
-	</section>
-</div> -->
+      <img
+        nz-image
+        nzSrc="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+        alt="Rohullah Hessam"
+        style="float: left; margin: 0 20px 10px 0; max-height: 200px; border-radius: 8px"
+      />
+
+
+      <p>
+        Je m’appelle <strong>Rohullah Hessam</strong>, diplômé en psychologie de l’éducation. Mon
+        parcours est celui d’un homme qui croit profondément au droit d’apprendre, même dans les
+        situations les plus difficiles.
+      </p>
+      <p>
+        En 2018, dans mon pays d’origine, j’étais fondateur et président d’une grande organisation
+        éducative et engagé au service public. À la suite d’événements politiques majeurs, j’ai été
+        contraint de quitter mon pays. En l’espace de quelques jours, toute ma vie professionnelle
+        et personnelle a basculé.
+      </p>
+      <p>
+        Arrivé en France en 2022 dans le cadre d’un programme de relocalisation, j’ai traversé une
+        période extrêmement difficile. Ne maîtrisant pas la langue, malgré mes droits, je n’ai pas
+        pu accéder immédiatement à l’aide et à l’hébergement. Cette expérience m’a profondément
+        marqué et m’a fait comprendre à quel point l’apprentissage, la langue et l’accès à
+        l’information sont essentiels pour préserver la dignité humaine.
+      </p>
+      <p>
+        Aujourd’hui, accueilli temporairement par une famille française solidaire, je poursuis mon
+        engagement avec détermination et reconnaissance envers la France et ses citoyens. J’ai fondé
+        Open Education | Association pour offrir des espaces d’apprentissage accessibles, humains et
+        gratuits.
+      </p>
+    </section>
+  </div>
+
+  <section>
+    <h2>Nos partenaires</h2>
+    <p>
+      Nous collaborons avec des associations, bénévoles et structures engagées dans l’éducation,
+      l’inclusion sociale et l’accompagnement des publics vulnérables.
+    </p>
+  </section>
+</div>

@@ -1,33 +1,14 @@
-:host {
-	display: block;
-}
-
-/* A grid for Mission and Vision to sit side-by-side on larger screens */
-.mission-vision-grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	/* Default to single column */
-	gap: 40px;
-	margin-bottom: 48px;
-}
-
-/* On screens wider than 768px, use two columns */
-@media (min-width: 768px) {
-	.mission-vision-grid {
-		grid-template-columns: 1fr 1fr;
-	}
-}
 
 /* Styling for generic content sections */
-.content-section,
+/* .content-section,
 .mission-vision-grid section {
 	line-height: 1.7;
-}
+} */
 
-.content-section p,
+/* .content-section p,
 .mission-vision-grid p {
 	color: var(--mat-sys-on-surface-variant);
-}
+} */
 
 .values-list {
 	list-style: none;
@@ -50,8 +31,4 @@
 	top: 0;
 	font-weight: 600;
 	color: var(--mat-sys-primary);
-}
-
-mat-divider {
-	margin: 48px 0;
 }

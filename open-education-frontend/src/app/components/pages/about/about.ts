@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { NzFlexModule } from 'ng-zorro-antd/flex';
+import { NzImageModule } from 'ng-zorro-antd/image';
 // import { MatCardModule } from '@angular/material/card';
 // import { MatDividerModule } from '@angular/material/divider';
 // import { Row } from '../../subcomponents/row/row';
@@ -6,7 +9,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
-  imports: [],
+  imports: [NzFlexModule, NzImageModule, NzCardModule],
   templateUrl: './about.html',
   styleUrl: './about.css',
 })
