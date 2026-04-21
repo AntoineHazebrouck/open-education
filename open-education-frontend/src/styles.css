@@ -1,49 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-
-/* TODO move to component */
-/* Specific styling for the values card to make it stand out */
-mat-card.left-bordered-card {
-	margin: 48px 0;
-	background-color: var(--mat-sys-surface-container-low);
-	border-left: 4px solid var(--mat-sys-primary);
-	box-shadow: none;
-
-	mat-card-title {
-		margin-bottom: 0.5rem;
-	}
-}
-
-header {
-	text-align: center;
-
-	h1 {
-		color: var(--mat-sys-primary);
-		margin-bottom: 24px;
-		line-height: 1.2;
-	}
-
-	p {
-		font-size: 1.15rem;
-		color: var(--mat-sys-on-surface-variant);
-		line-height: 1.6;
-		max-width: 75%;
-		margin: 0 auto;
-		/* Center the paragraph within the header section */
-	}
-}
-
-section {
-	h2 {
-		/* The mat-headline-medium class handles font size */
-		margin-bottom: 16px;
-		padding-bottom: 8px;
-		border-bottom: 1px solid var(--mat-sys-outline-variant);
-		color: var(--mat-sys-on-surface);
-	}
-}
-
 [fullwidth] {
 	width: 100%;
 }
