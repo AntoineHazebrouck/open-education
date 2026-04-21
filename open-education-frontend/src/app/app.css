@@ -2,8 +2,25 @@
   display: flex;
 }
 
+nz-header {
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 nz-header * {
   background: transparent;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .app-layout {
@@ -14,20 +31,28 @@ nz-header * {
 
 .top-nav {
   line-height: 64px;
+  border-bottom: none;
+}
+
+.top-nav .ant-menu-item {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  padding: 0 20px;
 }
 
 .logo {
-  float: left;
   height: 64px;
-  padding-right: 24px;
+  padding-right: 32px;
   line-height: 64px;
+  display: flex;
+  align-items: center;
   background: transparent;
 }
 
 .logo img {
   display: inline-block;
-  height: 80%;
-  /* width: 32px; */
+  height: 42px;
   vertical-align: middle;
 }
 
